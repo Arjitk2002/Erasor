@@ -30,7 +30,6 @@ function Workspace({ params }: any) {
         {/* document   */}
 
         <div className="">
-          Document
           <Editor
             onSaveTrigger={triggerSave}
             fileId={params.fileId}
